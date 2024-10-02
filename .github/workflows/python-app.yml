@@ -47,3 +47,4 @@ jobs:
     - name: Send Notification Email
       run: |
         echo "Pipeline executado com sucesso!" | mail -s "Notificação do Pipeline" ${{ secrets.EMAIL }}
+
